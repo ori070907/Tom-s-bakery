@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Tom's Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ===== MENU ===== -->
+  <div id="screen-menu" class="screen active">
+    <div class="screen-header">
+      <div class="header-logo-wrap">
+        <img src="images/logo.png" alt="Tom's Bakery" class="header-logo-img"
+             onerror="this.style.display='none'">
+      </div>
+      <h2>התפריט</h2>
+      <a href="https://wa.me/972544657263" target="_blank" class="header-phone">
+        📱 054-465-7263
+      </a>
+    </div>
+    <div id="menu-content" class="screen-scroll"></div>
+  </div>
+
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
